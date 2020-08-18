@@ -1,0 +1,13 @@
+table tr td {
+    font-size: 2.5rem;
+    height: 3rem;
+    width: 3rem;
+    border: 1px #c9c9c9 dotted;
+    text-align: center;
+}
+.disabled{
+    background-color: #ddd;
+    cursor: not-allowed;
+    color: #c2c2c2;
+    pointer-events:none;
+}
