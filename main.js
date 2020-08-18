@@ -74,12 +74,4 @@ document.getElementById('action').addEventListener('click', ()=>{
 
 document.getElementById('shifts').textContent = shifts
 
-if (operations[operations.length - 1] == 1){
-    document.getElementById('operation').textContent = 'Suma'
-} else if(operations[operations.length - 1] == 2){
-    document.getElementById('operation').textContent = 'Resta'
-} else if(operations[operations.length - 1] == 3){
-    document.getElementById('operation').textContent = 'Multiplicación'
-} else if(operations[operations.length - 1] == 4){
-    document.getElementById('operation').textContent = 'División'
-} 
+document.getElementById('operation').textContent = '?'
