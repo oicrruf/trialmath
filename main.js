@@ -30,7 +30,7 @@ let getNum = (e)=> {
 
 values.map(v=>{
     v.addEventListener('click', getNum);
-    target = Math.round(target + parseInt(v.textContent)/3)
+    target = Math.round(target + parseInt(v.textContent)/1.1)
 })
 
 document.getElementById('target').innerText = target
